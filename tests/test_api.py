@@ -84,6 +84,7 @@ class APITests(unittest.TestCase):
         self.assertEquals(response.mimetype, 'application/json')
         self.assertIn(b'Purchase Real Python', response.data)
         self.assertNotIn(b'Run around in circles', response.data)
+       
 
     def test_invalid_resource_endpoint_returns_error(self):
         self.add_tasks()

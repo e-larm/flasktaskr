@@ -72,9 +72,9 @@ def task(task_id):
             'task name': result.name,
             'due date': str(result.due_date),
             'priority': result.priority,
-            'posted date': str(result.posted_date),
+            'posted_date': str(result.posted_date),
             'status': result.status,
-            'user id': result.user_id
+            'user_id': result.user_id
         }
         code = 200
     else:
