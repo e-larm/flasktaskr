@@ -11,7 +11,7 @@ deploy:
   provider: heroku
   api_key:
     secure: ZDi4t7DaERAQ4aoXa0ndj9jcsu+8YioqmulXazbniL2rHro4tXvXi0KcY8t0cRf4zZf0eTykB/JwpnUWZTgWIVutbie69qh3eqfn9K9CTND4rFDcuRqSrKT1/00hNZ1sGIrRVlj/IO2z8hSoDh3vTEaPQv4hoMJ+++6ayk6SnUHuLGqyZI1eN/0lbCVyUo4N17B/tJi6ji8pKkfudm+veGftdQJHHaITJMAwBNUAPw6UvLQ7KpNi03fxmN98Z/AaLXcgc2HFcA5Dj5rE9fYGAZV1LbfAMb0VExH6ZIusRNpuvcDcrR8p/WjgV54Qnxqo63BdNjT5GO5JCqs2OdKDdK13ZKFjBAi5/hMk8B2MvE8+PlXtsaHWWTnWrTDE5M5p+Hp5rqHNhHCIQ9WhPL8OEGd0PU496jTFoe9TbcPXZtWtm+AETYWLXAkuJC9dpwx2JcLpLxmqr5m6YL30HFE3s1kSgo62LiL9NIi9fSa9k2dejgsAxBLNi7z52RLE6ZHJ9Veb3I5qiTuH0KN+4Jg7PQNOhtNyWwSbQul1bBWmlqSKB4hUAHC2aFlUQgepIt5+O+5Egz+NyWOpWyNZcH+PMaaUqvnRjXOeXJzPaiKynnxnMAcyYMNGpIDtvwbzo5Quiq/YhlShEUsTgZQgMbhCffCtLB+8GjN/+/Ad9ksh8Pk=
-  app: flasktaskr-2019
+  app: intense-hollows-53714
   on:
   	branch: master
   	python: '3.6'
