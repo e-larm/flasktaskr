@@ -1,4 +1,4 @@
-# project/test_main.py 
+# tests/test_main.py 
 
 import os
 import unittest
@@ -55,6 +55,11 @@ class MainTests(unittest.TestCase):
       self.assertEquals(response.status_code, 500)
     except ValueError:
       pass
+
+  def test_index(self):
+    """Ensure flask was set up correctly."""
+    response = self.app.get('/', content_type='html/text')
+    self.assertEquals(response.status_code, 200)
 
 
 if __name__ == "__main__":
